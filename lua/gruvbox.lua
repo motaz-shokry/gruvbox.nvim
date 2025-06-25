@@ -530,6 +530,8 @@ local function get_groups()
     CmpItemKindConstant = { link = "GruvboxOrange" },
     CmpItemKindStruct = { link = "GruvboxYellow" },
     CmpItemKindTypeParameter = { link = "GruvboxYellow" },
+    BlinkCmpMenu = { link = "GruvboxBg0" },
+    BlinkCmpMenuBorder = { link = "GruvboxGray" },
     BlinkCmpLabel = { link = "GruvboxFg0" },
     BlinkCmpLabelDeprecated = { link = "GruvboxFg1" },
     BlinkCmpLabelMatch = { link = "GruvboxBlueBold" },
