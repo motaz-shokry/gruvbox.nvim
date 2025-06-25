@@ -3,7 +3,7 @@
 ---@field palette GruvboxPalette
 local Gruvbox = {}
 
----@alias Contrast "hard" | "soft" | ""
+---@alias Contrast "hard" | "medium" | "soft"
 
 ---@class ItalicConfig
 ---@field strings boolean
@@ -50,7 +50,7 @@ Gruvbox.config = {
   underline = true,
   bold = true,
   italic = {
-    strings = true,
+    strings = false,
     emphasis = true,
     comments = true,
     operators = false,
@@ -71,16 +71,16 @@ Gruvbox.config = {
 -- main gruvbox color palette
 ---@class GruvboxPalette
 Gruvbox.palette = {
-  dark0_hard = "#1d2021",
+  dark0_hard = "#1b1b1b",
   dark0 = "#282828",
   dark0_soft = "#32302f",
   dark1 = "#3c3836",
   dark2 = "#504945",
   dark3 = "#665c54",
   dark4 = "#7c6f64",
-  light0_hard = "#f9f5d7",
+  light0_hard = "#fbf1c7",
   light0 = "#fbf1c7",
-  light0_soft = "#f2e5bc",
+  light0_soft = "#ebdbb2",
   light1 = "#ebdbb2",
   light2 = "#d5c4a1",
   light3 = "#bdae93",
@@ -265,19 +265,19 @@ local function get_groups()
     GruvboxOrange = { fg = colors.orange },
     GruvboxOrangeBold = { fg = colors.orange, bold = config.bold },
     GruvboxRedSign = config.transparent_mode and { fg = colors.red, reverse = config.invert_signs }
-      or { fg = colors.red, bg = colors.bg1, reverse = config.invert_signs },
+        or { fg = colors.red, bg = colors.bg1, reverse = config.invert_signs },
     GruvboxGreenSign = config.transparent_mode and { fg = colors.green, reverse = config.invert_signs }
-      or { fg = colors.green, bg = colors.bg1, reverse = config.invert_signs },
+        or { fg = colors.green, bg = colors.bg1, reverse = config.invert_signs },
     GruvboxYellowSign = config.transparent_mode and { fg = colors.yellow, reverse = config.invert_signs }
-      or { fg = colors.yellow, bg = colors.bg1, reverse = config.invert_signs },
+        or { fg = colors.yellow, bg = colors.bg1, reverse = config.invert_signs },
     GruvboxBlueSign = config.transparent_mode and { fg = colors.blue, reverse = config.invert_signs }
-      or { fg = colors.blue, bg = colors.bg1, reverse = config.invert_signs },
+        or { fg = colors.blue, bg = colors.bg1, reverse = config.invert_signs },
     GruvboxPurpleSign = config.transparent_mode and { fg = colors.purple, reverse = config.invert_signs }
-      or { fg = colors.purple, bg = colors.bg1, reverse = config.invert_signs },
+        or { fg = colors.purple, bg = colors.bg1, reverse = config.invert_signs },
     GruvboxAquaSign = config.transparent_mode and { fg = colors.aqua, reverse = config.invert_signs }
-      or { fg = colors.aqua, bg = colors.bg1, reverse = config.invert_signs },
+        or { fg = colors.aqua, bg = colors.bg1, reverse = config.invert_signs },
     GruvboxOrangeSign = config.transparent_mode and { fg = colors.orange, reverse = config.invert_signs }
-      or { fg = colors.orange, bg = colors.bg1, reverse = config.invert_signs },
+        or { fg = colors.orange, bg = colors.bg1, reverse = config.invert_signs },
     GruvboxRedUnderline = { undercurl = config.undercurl, sp = colors.red },
     GruvboxGreenUnderline = { undercurl = config.undercurl, sp = colors.green },
     GruvboxYellowUnderline = { undercurl = config.undercurl, sp = colors.yellow },
