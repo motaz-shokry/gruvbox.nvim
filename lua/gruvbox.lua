@@ -356,7 +356,7 @@ local function get_groups()
     StorageClass = { link = "GruvboxOrange" },
     Structure = { link = "GruvboxAqua" },
     Typedef = { link = "GruvboxYellow" },
-    Pmenu = { fg = colors.fg1, bg = colors.bg0 },
+    Pmenu = { fg = colors.gray, bg = colors.bg0 },
     PmenuSel = { fg = colors.bg0, bg = colors.blue, bold = config.bold },
     PmenuSbar = { bg = colors.bg0 },
     PmenuThumb = { bg = colors.bg3 },
