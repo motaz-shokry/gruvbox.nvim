@@ -299,7 +299,7 @@ local function get_groups()
     CursorLineNr = { fg = colors.yellow, bg = colors.bg1 },
     NonText = { link = "GruvboxBg2" },
     SpecialKey = { link = "GruvboxFg4" },
-    Visual = { bg = "", reverse = config.invert_selection },
+    Visual = { bg = colors.bg2, reverse = config.invert_selection },
     VisualNOS = { link = "Visual" },
     Search = { fg = colors.yellow, bg = colors.bg0, reverse = config.inverse },
     IncSearch = { fg = colors.orange, bg = colors.bg0, reverse = config.inverse },
