@@ -410,6 +410,7 @@ local function get_groups()
     GitSignsDelete = { link = "GruvboxRed" },
     NvimTreeSymlink = { fg = colors.neutral_aqua },
     NvimTreeRootFolder = { fg = colors.neutral_purple, bold = true },
+    NvimTreeFolderName = { fg = colors.neutral_blue, bold = false },
     NvimTreeFolderIcon = { fg = colors.neutral_blue, bold = true },
     NvimTreeFileIcon = { fg = colors.light2 },
     NvimTreeExecFile = { fg = colors.neutral_green, bold = true },
