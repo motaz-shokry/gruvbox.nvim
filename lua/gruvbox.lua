@@ -61,7 +61,7 @@ Gruvbox.config = {
   invert_signs = false,
   invert_tabline = false,
   inverse = true,
-  contrast = "",
+  contrast = "medium",
   palette_overrides = {},
   overrides = {},
   dim_inactive = false,
@@ -200,7 +200,7 @@ local function get_colors()
     },
   }
 
-  if contrast ~= nil and contrast ~= "" then
+  if contrast ~= nil and contrast ~= "medium" then
     color_groups[bg].bg0 = p[bg .. "0_" .. contrast]
     color_groups[bg].dark_red = p[bg .. "_red_" .. contrast]
     color_groups[bg].dark_green = p[bg .. "_green_" .. contrast]
