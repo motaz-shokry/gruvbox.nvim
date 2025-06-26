@@ -297,7 +297,7 @@ local function get_groups()
     ColorColumn = { bg = colors.bg1 },
     Conceal = { fg = colors.blue },
     CursorLineNr = { fg = colors.yellow, bg = colors.bg0 },
-    BufferLineOffset = {fg = colors.dark_green, bg = colors.bg0},
+    BufferLineOffset = {fg = colors.neutral_green, bg = colors.bg0},
     NonText = { link = "GruvboxBg2" },
     SpecialKey = { link = "GruvboxFg4" },
     Visual = { bg = colors.bg2, reverse = config.invert_selection },
