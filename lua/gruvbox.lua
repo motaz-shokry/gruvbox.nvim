@@ -397,6 +397,7 @@ local function get_groups()
     DiagnosticVirtualTextHint = { link = "GruvboxAqua" },
     DiagnosticVirtualTextOk = { link = "GruvboxGreen" },
     BufferLineBackground = { fg = colors.fg0, bg = colors.bg0 },
+    BufferLineFill = { fg = colors.fg0, bg = colors.bg0 },
     BufferLineBuffer = { fg = colors.fg0, bg = colors.bg0 },
     BufferLineBufferSelected = { fg = colors.fg0, bg = colors.bg0, bold = true },
     BufferLineBufferVisible = { fg = colors.fg2, bg = colors.bg1},
