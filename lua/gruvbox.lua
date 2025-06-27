@@ -399,6 +399,7 @@ local function get_groups()
     BufferLineBackground = { fg = colors.fg0, bg = colors.bg0 },
     BufferLineBuffer = { fg = colors.fg0, bg = colors.bg0 },
     BufferLineBufferSelected = { fg = colors.fg0, bg = colors.bg0, bold = true },
+    BufferLineBufferVisible = { fg = colors.fg2, bg = colors.bg1, bold = true },
     BufferLineOffset = { fg = colors.neutral_green, bg = colors.bg0 },
     LspReferenceRead = { link = "GruvboxYellowBold" },
     LspReferenceTarget = { link = "Visual" },
