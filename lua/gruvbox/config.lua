@@ -8,7 +8,7 @@ local config = {}
 ---@class Options
 config.options = {
   ---Set the desired variant: "auto" will follow the vim background,
-  ---defaulting to `dark_variant` or "medium" for dark and "light" for light.
+  ---defaulting to `dark_variant` or "hard" for deep dark and "soft" for lite dark and "light" for light.
   ---@type "auto" | Variant
   variant = "auto",
 
