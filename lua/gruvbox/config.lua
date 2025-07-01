@@ -8,7 +8,7 @@ local config = {}
 ---@class Options
 config.options = {
   ---Set the desired variant: "auto" will follow the vim background,
-  ---defaulting to `dark_variant` or "main" for dark and "dawn" for light.
+  ---defaulting to `dark_variant` or "medium" for dark and "light" for light.
   ---@type "auto" | Variant
   variant = "auto",
 
@@ -21,7 +21,7 @@ config.options = {
 
   ---Extend background behind borders. Appearance differs based on which
   ---border characters you are using.
-  extend_background_behind_borders = true,
+  extend_background_behind_borders = false,
 
   enable = {
     legacy_highlights = true,
@@ -56,14 +56,14 @@ config.options = {
 
     -- Git states
     git_add = "green_dark",
-    git_change = "orange_dark",
+    git_change = "yellow_dark",
     git_delete = "red_dark",
     git_dirty = "orange_dark",
     git_ignore = "gray",
     git_merge = "purple_dark",
     git_rename = "blue_dark",
     git_stage = "purple_dark",
-    git_text = "orange_dark",
+    git_text = "yellow_lite",
     git_untracked = "bg2",
 
     -- Headings
@@ -84,17 +84,6 @@ config.options = {
   ---@param palette Palette
   ---@diagnostic disable-next-line: unused-local
   before_highlight = function(group, highlight, palette) end,
-
-  ---@deprecated Replaced by `options.dim_inactive_windows`
-  -- dim_nc_background = false,
-  ---@deprecated Replaced by `options.enable.transparency`
-  -- disable_background = false,
-  ---@deprecated Replaced by `options.highlight_groups["NormalFloat"]`
-  -- disable_float_background = false,
-  ---@deprecated Replaced by `options.styles.italic`
-  -- disable_italics = false,
-  ---@deprecated Replaced by `options.highlight_groups`
-  -- bold_vert_split = false
 }
 
 local function migrate(options)
