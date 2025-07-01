@@ -40,16 +40,16 @@ end
 local blend_cache = {}
 
 ---@param fg string Foreground color
----@param bg_main string Background color
+---@param bg string Background color
 ---@param alpha number Between 0 (background) and 1 (foreground)
-function utilities.blend(fg, bg_main, alpha)
-  local cache_key = fg .. bg_main .. alpha
+function utilities.blend(fg, bg, alpha)
+  local cache_key = fg .. bg .. alpha
   if blend_cache[cache_key] then
     return blend_cache[cache_key]
   end
 
   local fg_rgb = color_to_rgb(fg)
-  local bg_rgb = color_to_rgb(bg_main)
+  local bg_rgb = color_to_rgb(bg)
 
   local function blend_channel(i)
     local ret = (alpha * fg_rgb[i] + ((1 - alpha) * bg_rgb[i]))
