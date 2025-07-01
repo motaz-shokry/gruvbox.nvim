@@ -1033,7 +1033,7 @@ local function set_highlights()
     end
 
     if highlight.blend ~= nil and (highlight.blend >= 0 and highlight.blend <= 100) and highlight.bg ~= nil then
-      highlight.bg = utilities.blend(highlight.bg, highlight.blend_on or palette.base, highlight.blend / 100)
+      highlight.bg_main = utilities.blend(highlight.bg, highlight.blend_on or palette.base, highlight.blend / 100)
     end
 
     highlight.blend = nil
