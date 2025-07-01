@@ -1,7 +1,7 @@
 # Lua version of [gruvbox](https://github.com/morhetz/gruvbox) theme, but the hard variant background is "#1b1b1b" not "#1d2021" 🙃.
 
 ## Why!
-As a fan of the gruvbox theme, I tried [gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) for the nvim editor, but it was bad in appearance and layout, and the worst thing was that the hard background was "#1d2021" not "#1b1b1b". So I decided to modify it and add some improvements to it, but the code structure didn't allow for much, so I decided to make this theme inspired by the code structure of the wonderful [rose pine](https://github.com/rose-pine/neovim) theme, and this is it. I hope you like it.
+As a fan of the gruvbox theme, I tried [gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) for the nvim editor, but it was bad in appearance and layout, and the worst thing was that the hard background was "#1d2021" not "#1b1b1b". Then I decided to modify it and add some improvements to it, but the code structure didn't allow for much, so I decided to make this theme inspired by the code structure of the wonderful [rose pine](https://github.com/rose-pine/neovim) theme, and this is it. I hope you like it.
 
 ## Getting started
 
