@@ -396,6 +396,7 @@ local function set_highlights()
     BufferVisibleMod = { fg = palette.aqua_lite },
     BufferVisibleSign = { fg = palette.fg4 },
     BufferVisibleTarget = { fg = palette.yellow_lite },
+    BufferOffset = {fg = palette.green_lite, bg = palette.bg_main}
 
     -- lewis6991/gitsigns.nvim
     GitSignsAdd = { fg = groups.git_add, bg = "NONE" },
