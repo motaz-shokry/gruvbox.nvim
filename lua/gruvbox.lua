@@ -429,7 +429,7 @@ local function set_highlights()
     ModesFormat = { bg = palette.blue_lite },
     ModesInsert = { bg = palette.green_lite },
     ModesReplace = { bg = palette.aqua_lite },
-    ModesVisual = { bg = palette.bg_third },
+    ModesVisual = { bg = palette.bg4 },
 
     -- kyazdani42/nvim-tree.lua
     NvimTreeEmptyFolderName = { fg = palette.fg4 },
