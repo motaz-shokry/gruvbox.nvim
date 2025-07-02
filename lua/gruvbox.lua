@@ -639,12 +639,6 @@ local function set_highlights()
     DapUIWatchesValue = { link = "DapUIThread" },
 
     -- glepnir/dashboard-nvim
-    DashboardCenter = { fg = palette.gold },
-    DashboardFooter = { fg = palette.iris },
-    DashboardHeader = { fg = palette.pine },
-    DashboardShortcut = { fg = palette.love },
-
-    -- glepnir/dashboard-nvim
     DashboardCenter = { fg = palette.yellow_lite },
     DashboardFooter = { fg = palette.purple_lite },
     DashboardHeader = { fg = palette.green_dark },
