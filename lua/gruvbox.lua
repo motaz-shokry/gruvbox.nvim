@@ -29,7 +29,7 @@ local function set_highlights()
     ["@field"] = { fg = palette.blue_lite },
     ["@include"] = { fg = palette.aqua_lite, bold = styles.bold },
     ["@interface"] = { fg = palette.yellow_dark, italic = true },
-    ["@macro"] = { fg = palette.aqua_lite_dark, bold = styles.bold },
+    ["@macro"] = { fg = palette.purple_lite, bold = styles.bold },
     ["@method"] = { fg = palette.green_dark },
     ["@namespace"] = { fg = palette.fg1, italic = true },
     ["@number"] = { fg = palette.purple_lite },
@@ -50,7 +50,7 @@ local function set_highlights()
     ["@text.emphasis"] = { italic = styles.italic },
     ["@text.environment"] = { fg = palette.aqua_dark },
     ["@text.environment.name"] = { fg = palette.yellow_lite, bold = styles.bold },
-    ["@text.math"] = { fg = palette.blue_lite },
+    ["@text.math"] = { fg = palette.orange_lite },
     ["@text.note"] = { fg = palette.aqua_lite },
     ["@text.strike"] = { strikethrough = true, fg = palette.gray },
     ["@text.strong"] = { bold = styles.bold, fg = palette.fg },
@@ -302,7 +302,7 @@ local function set_highlights()
     ["@constant.macro"] = { fg = palette.aqua_lite },
 
     ["@module"] = { fg = palette.fg1 },
-    ["@module.builtin"] = { fg = palette.red_lite, bold = styles.bold },
+    ["@module.builtin"] = { fg = palette.fg1, bold = styles.bold },
     ["@label"] = { link = "Label" },
 
     ["@string"] = { fg = palette.green_lite },
@@ -315,16 +315,18 @@ local function set_highlights()
     ["@type.definition"] = { fg = palette.yellow_lite, bold = styles.bold },
     ["@type.qualifier"] = { fg = palette.yellow_lite },
 
-    ["@attribute"] = { fg = palette.yellow_lite },
-    ["@attribute.builtin"] = { fg = palette.yellow_lite, bold = styles.bold },
-    ["@property"] = { fg = palette.red_lite },
+    ["@attribute"] = { fg = palette.aqua_lite },
+    ["@attribute.builtin"] = { fg = palette.aqua_lite, bold = styles.bold },
+    ["@property"] = { fg = palette.blue_lite },
 
-    ["@function"] = { fg = palette.purple_lite },
-    ["@function.builtin"] = { fg = palette.purple_lite, bold = styles.bold },
-    ["@function.method"] = { fg = palette.purple_lite },
-    ["@function.method.call"] = { fg = palette.purple_lite },
+    ["@function"] = { fg = palette.green_dark },
+    ["@function.call"] = { link = "@function" },
+    ["@function.builtin"] = { fg = palette.orange_lite, bold = styles.bold },
+    ["@function.method"] = { link = "@function" },
+    ["@function.method.call"] = { link = "@function.method" },
+    ["@function.macro"] = { fg = palette.purple_lite },
 
-    ["@constructor"] = { fg = palette.aqua_lite },
+    ["@constructor"] = { fg = palette.orange_dark },
 
     ["@keyword"] = { fg = palette.purple_lite },
     ["@keyword.operator"] = { fg = palette.purple_lite },
