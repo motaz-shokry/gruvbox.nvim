@@ -321,7 +321,7 @@ local function set_highlights()
 
     ["@function"] = { fg = palette.green_dark },
     ["@function.call"] = { link = "@function" },
-    ["@function.builtin"] = { fg = palette.orange_lite, bold = styles.bold },
+    ["@function.builtin"] = { fg = palette.orange_lite },
     ["@function.method"] = { link = "@function" },
     ["@function.method.call"] = { link = "@function.method" },
     ["@function.macro"] = { fg = palette.purple_lite },
