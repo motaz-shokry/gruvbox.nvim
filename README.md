@@ -2,7 +2,9 @@
 
 ## Why!
 As a fan of the gruvbox theme, I tried [gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) for the nvim editor, but it was bad in appearance and layout, and the worst thing was that the hard background was "#1d2021" not "#1b1b1b". Then I decided to modify it and add some improvements to it, but the code structure didn't allow for much, so I decided to make this theme inspired by the code structure of the wonderful [rose pine](https://github.com/rose-pine/neovim) theme, and this is it. I hope you like it.
-
+I’ve always had a soft spot for the [gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) theme, so I gave that gruvbox.nvim a try. Sadly, the visual design didn’t land well for me — especially the background color: a harsh #1d2021 instead of the smoother #1b1b1b I’m used to.
+I wanted to tweak it and polish a few things, but the way the code was structured didn’t leave much room for flexibility. So, I rolled up my sleeves and built my own flavor of gruvbox, inspired by the elegant architecture of [rose pine](https://github.com/rose-pine/neovim).
+And here it is — hope it brings some joy to your edditor
 ## Getting started
 
 Install `motaz_shokry/gruvbox.nvim` using [Lazy](https://github.com/folke/lazy.nvim) package manager:
@@ -140,4 +142,3 @@ vim.cmd("colorscheme gruvbox")
 We welcome and appreciate contributions of any kind. Create an issue or start a discussion for any proposed changes. Pull requests are encouraged for supporting additional plugins or [treesitter improvements](https://github.com/nvim-treesitter/nvim-treesitter/blob/master/CONTRIBUTING.md#highlights).
 
 Feel free to update the [README](https://gitlab.com/motaz-shokry/gruvbox.nvim/README) with any improvements.
-Project inspired by the file and code structure of [rose pine](https://github.com/rose-pine/neovim) nvim theme.
