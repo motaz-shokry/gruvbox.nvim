@@ -106,13 +106,13 @@ local function set_highlights()
 
     -- Pop-up Menu (Pmenu)
     Pmenu = { fg = palette.fg1, bg = palette.bg_second },
-    PmenuSel = { fg = palette.fg1, bg = palette.bg_second },
+    PmenuSel = { fg = palette.fg1, bg = palette.bg_1 },
     PmenuSbar = { bg = palette.bg_second },
     PmenuThumb = { bg = palette.gray },
     PmenuExtra = { fg = palette.gray, bg = palette.bg_second },
-    PmenuExtraSel = { fg = palette.fg2, bg = palette.bg_second },
+    PmenuExtraSel = { fg = palette.fg2, bg = palette.bg1 },
     PmenuKind = { fg = palette.aqua_lite, bg = palette.bg_second },
-    PmenuKindSel = { fg = palette.aqua_lite, bg = palette.bg_second },
+    PmenuKindSel = { fg = palette.aqua_lite, bg = palette.bg1 },
 
     -- Diffs (Git)
     DiffAdd = { bg = palette.green_dark, blend = 20 },
@@ -396,6 +396,8 @@ local function set_highlights()
     BufferCurrentCHANGED = { bg = palette.bg_main },
     BufferCurrentDELETED = { bg = palette.bg_main },
     BufferCurrentERROR = { bg = palette.bg_main },
+    BufferCurrentINFO = { bg = palette.bg_main },
+    BufferCurrentWARN = { bg = palette.bg_main },
     BufferInactive = { fg = palette.gray },
     BufferInactiveIndex = { fg = palette.gray },
     BufferInactiveMod = { fg = palette.aqua_lite },
@@ -953,7 +955,7 @@ local function set_highlights()
     NormalFloat = { bg = "NONE" },
     Normal = { fg = palette.fg, bg = "NONE" },
     NormalNC = { fg = palette.fg, bg = config.options.dim_inactive_windows and palette._nc or "NONE" },
-    Pmenu = { fg = palette.gray, bg = "NONE" },
+    Pmenu = { fg = palette.fg, bg = "NONE" },
     PmenuKind = { fg = palette.aqua_lite, bg = "NONE" },
     SignColumn = { fg = palette.fg, bg = "NONE" },
     StatusLine = { fg = palette.gray, bg = "NONE" },
