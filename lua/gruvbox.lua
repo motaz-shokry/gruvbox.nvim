@@ -89,7 +89,7 @@ local function set_highlights()
     FloatTitle = { fg = palette.aqua_lite, bg = palette.bg_second, bold = styles.bold },
     Folded = { fg = palette.purple_lite, bg = palette.bg_main },
     FoldColumn = { fg = palette.gray },
-    MatchParen = { bg = palette.bg2, bold = styles.bold },
+    MatchParen = { bg = palette.bg4, bold = styles.bold },
     QuickFixLine = { bg = palette.bg1, bold = styles.bold },
     WildMenu = { link = "IncSearch" },
 
@@ -116,7 +116,7 @@ local function set_highlights()
 
     -- Pop-up Menu (Pmenu)
     Pmenu = { fg = palette.fg1, bg = palette.bg_main },
-    PmenuSel = { fg = palette.fg, bg = palette.bg1 },
+    PmenuSel = { fg = palette.green_lite, bg = palette.bg1 },
     PmenuKind = { fg = palette.aqua_lite, bg = palette.bg_second },
     PmenuKindSel = { fg = palette.aqua_lite, bg = palette.bg1 },
     PmenuSbar = { bg = palette.bg_second },
