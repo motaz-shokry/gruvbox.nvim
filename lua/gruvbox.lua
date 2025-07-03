@@ -80,8 +80,18 @@ local function set_highlights()
   local default_highlights = {
     -- Editor UI
     Normal = { fg = palette.fg, bg = palette.bg_main },
-    NormalFloat = { bg = palette.bg_main },
-    NormalNC = { fg = palette.fg, bg = palette.bg_main },
+    NormalFloat = { fg = palette.fg, bg = palette.bg_main },
+    NormalNC = { fg = palette.fg2, bg = palette.bg_main },
+
+    Directory = { fg = palette.blue_dark, bold = styles.bold },
+    Title = { fg = palette.aqua_lite, bold = styles.bold },
+    FloatBorder = { fg = palette.blue_lite },
+    FloatTitle = { fg = palette.aqua_lite, bg = palette.bg_second, bold = styles.bold },
+    FoldColumn = { fg = palette.gray },
+    Folded = { fg = palette.fg2, bg = palette.bg_third },
+    MatchParen = { fg = palette.purple_lite, bold = styles.bold },
+    QuickFixLine = { bg = palette.bg1, bold = styles.bold },
+    WildMenu = { link = "IncSearch" },
 
     Conceal = { bg = palette.none },
     SignColumn = { fg = palette.fg, bg = palette.none },
@@ -102,7 +112,7 @@ local function set_highlights()
     Search = { fg = palette.bg_main, bg = palette.yellow_lite },
     CurSearch = { fg = palette.bg_main, bg = palette.yellow_dark },
     IncSearch = { fg = palette.bg_main, bg = palette.yellow_dark },
-    Substitute = {  fg = palette.bg_main, bg = palette.green_dark  },
+    Substitute = { fg = palette.bg_main, bg = palette.green_dark },
 
     -- Pop-up Menu (Pmenu)
     Pmenu = { fg = palette.fg1, bg = palette.bg_second },
@@ -133,17 +143,6 @@ local function set_highlights()
 
     -- Visual Selection
     Visual = { bg = palette.bg2 },
-
-    -- Other UI Elements
-    Directory = { fg = palette.blue_dark, bold = styles.bold },
-    Title = { fg = palette.aqua_lite, bold = styles.bold },
-    FloatBorder = { fg = palette.bg2 },
-    FloatTitle = { fg = palette.aqua_lite, bg = palette.bg_second, bold = styles.bold },
-    FoldColumn = { fg = palette.gray },
-    Folded = { fg = palette.fg2, bg = palette.bg_third },
-    MatchParen = { fg = palette.purple_lite, bold = styles.bold },
-    QuickFixLine = { bg = palette.bg1, bold = styles.bold },
-    WildMenu = { link = "IncSearch" },
 
     -- Spelling
     SpellBad = { sp = palette.red_dark, undercurl = true },
@@ -379,7 +378,7 @@ local function set_highlights()
     ["@lsp.type.namespace.python"] = { link = "@variable" },
     ["@lsp.type.parameter"] = { link = "@parameter" },
     ["@lsp.type.property"] = { link = "@property" },
-    ["@lsp.type.variable"] = {link = "@variable"},
+    ["@lsp.type.variable"] = { link = "@variable" },
     ["@lsp.type.variable.svelte"] = { link = "@variable" },
     ["@lsp.typemod.function.defaultLibrary"] = { link = "@function.builtin" },
     ["@lsp.typemod.operator.injected"] = { link = "@operator" },
