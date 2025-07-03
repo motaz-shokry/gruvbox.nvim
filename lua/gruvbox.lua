@@ -89,7 +89,7 @@ local function set_highlights()
     FloatTitle = { fg = palette.aqua_lite, bg = palette.bg_second, bold = styles.bold },
     Folded = { fg = palette.purple_lite, bg = palette.bg_main },
     FoldColumn = { fg = palette.gray },
-    MatchParen = { bg = palette.bg3, bold = styles.bold },
+    MatchParen = { bg = palette.fg3, bold = styles.bold },
     QuickFixLine = { bg = palette.bg1, bold = styles.bold },
     WildMenu = { link = "IncSearch" },
 
