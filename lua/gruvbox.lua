@@ -116,13 +116,13 @@ local function set_highlights()
 
     -- Pop-up Menu (Pmenu)
     Pmenu = { fg = palette.fg1, bg = palette.bg_main },
-    PmenuSel = { fg = palette.green_lite, bg = palette.bg1 },
+    PmenuSel = { fg = palette.green_lite, bg = palette.bg_third },
     PmenuKind = { fg = palette.aqua_lite, bg = palette.bg_second },
     PmenuKindSel = { fg = palette.aqua_lite, bg = palette.bg1 },
     PmenuSbar = { bg = palette.bg_second },
     PmenuThumb = { bg = palette.gray },
-    PmenuExtra = { fg = palette.fg3, bg = palette.bg_second },
-    PmenuExtraSel = { fg = palette.fg2, bg = palette.bg1 },
+    PmenuExtra = { fg = palette.fg2, bg = palette.bg_second },
+    PmenuExtraSel = { fg = palette.fg1, bg = palette.bg1 },
 
     -- Diffs (Git)
     DiffAdd = { bg = palette.green_dark, blend = 20 },
