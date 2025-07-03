@@ -92,9 +92,9 @@ local function set_highlights()
     SpecialKey = { fg = palette.aqua_lite },
 
     -- Cursor & Line Highlighting
-    Cursor = { fg = palette.bg_main, bg = palette.fg },
-    CursorColumn = { bg = palette.bg1 },
-    CursorLine = { bg = palette.bg_third },
+    Cursor = { fg = palette.bg_main, bg = palette.fg1 },
+    CursorColumn = { bg = palette.bg_second },
+    CursorLine = { bg = palette.bg_second },
     CursorLineNr = { fg = palette.yellow_lite, bold = styles.bold },
     LineNr = { fg = palette.gray },
 
