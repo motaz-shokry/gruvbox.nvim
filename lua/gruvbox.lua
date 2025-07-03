@@ -80,7 +80,7 @@ local function set_highlights()
   local default_highlights = {
     -- Editor UI
     Normal = { fg = palette.fg, bg = palette.bg_main },
-    NormalFloat = { bg = palette.bg_second },
+    NormalFloat = { bg = palette.bg_main },
     NormalNC = { fg = palette.fg, bg = palette.bg_main },
 
     Conceal = { bg = palette.none },

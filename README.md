@@ -14,6 +14,7 @@ Install `motaz_shokry/gruvbox.nvim` using [Lazy](https://github.com/folke/lazy.n
 return {
 	"https://gitlab.com/motaz-shokry/gruvbox.nvim",
 	name = "gruvbox",
+    priority = 1000,
 	config = function()
 		vim.cmd("colorscheme gruvbox")
 	end
