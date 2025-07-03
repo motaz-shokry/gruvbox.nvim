@@ -100,19 +100,19 @@ local function set_highlights()
 
     -- Search
     Search = { fg = palette.bg_main, bg = palette.yellow_lite },
-    CurSearch = { link = "Search" },
-    IncSearch = { link = "Search" },
-    Substitute = { link = "Search" },
+    CurSearch = { fg = palette.bg_main, bg = palette.yellow_dark },
+    IncSearch = { fg = palette.bg_main, bg = palette.yellow_dark },
+    Substitute = {  fg = palette.bg_main, bg = palette.green_dark  },
 
     -- Pop-up Menu (Pmenu)
     Pmenu = { fg = palette.fg1, bg = palette.bg_second },
-    PmenuSel = { fg = palette.fg1, bg = palette.bg_1 },
-    PmenuSbar = { bg = palette.bg_second },
-    PmenuThumb = { bg = palette.gray },
-    PmenuExtra = { fg = palette.gray, bg = palette.bg_second },
-    PmenuExtraSel = { fg = palette.fg2, bg = palette.bg1 },
+    PmenuSel = { fg = palette.fg, bg = palette.bg_1 },
     PmenuKind = { fg = palette.aqua_lite, bg = palette.bg_second },
     PmenuKindSel = { fg = palette.aqua_lite, bg = palette.bg1 },
+    PmenuSbar = { bg = palette.bg_second },
+    PmenuThumb = { bg = palette.gray },
+    PmenuExtra = { fg = palette.fg3, bg = palette.bg_second },
+    PmenuExtraSel = { fg = palette.fg2, bg = palette.bg1 },
 
     -- Diffs (Git)
     DiffAdd = { bg = palette.green_dark, blend = 20 },
