@@ -15,7 +15,7 @@ local function set_highlights()
     fg = fg or groups.border
     return {
       fg = fg,
-      bg = (config.options.extend_background_behind_borders and not styles.transparency) and palette.bg_second
+      bg = (config.options.extend_background_behind_borders and not styles.transparency) and palette.bg_main
           or "NONE",
     }
   end
