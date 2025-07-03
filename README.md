@@ -25,19 +25,19 @@ return {
 
 **Gruvbox Hard Variant**
 
-![Gruvbox Hard Variant]()
+![Gruvbox Hard Variant](./assets/hard.png)
 
 **Gruvbox Medium Variant**
 
-![Gruvbox Medium Variant]()
+![Gruvbox Medium Variant](./assets/medium.png)
 
 **Gruvbox Soft Variant**
 
-![Gruvbox Soft Variant]()
+![Gruvbox Soft Variant](./assets/soft.png)
 
 **Gruvbox Light Variant**
 
-![Gruvbox Light Variant]()
+![Gruvbox Light Variant](./assets/light.png)
 
 ## Options
 
