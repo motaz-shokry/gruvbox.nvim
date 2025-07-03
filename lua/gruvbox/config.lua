@@ -41,7 +41,7 @@ config.options = {
   ---@type table<string, string | PaletteColor>
   groups = {
     -- UI Elements
-    border = "gray",
+    border = "fg4",
     link = "purple_lite",
     panel = "bg_second",
 
