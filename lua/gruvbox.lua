@@ -893,8 +893,8 @@ local function set_highlights()
 
     -- Saghen/blink.cmp
     BlinkCmpDoc = { bg = palette.bg_main },
-    BlinkCmpDocSeparator = { bg = palette.gray },
-    BlinkCmpDocBorder = { fg = palette.yellow_lite },
+    BlinkCmpDocSeparator = {fg = palette.gray, bg = palette.none },
+    BlinkCmpDocBorder = { fg = palette.blue_lite },
     BlinkCmpGhostText = { fg = palette.gray },
 
     BlinkCmpLabel = { fg = palette.fg4 },
