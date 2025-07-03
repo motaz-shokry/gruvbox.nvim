@@ -87,9 +87,9 @@ local function set_highlights()
     Title = { fg = palette.aqua_lite, bold = styles.bold },
     FloatBorder = { fg = palette.blue_lite },
     FloatTitle = { fg = palette.aqua_lite, bg = palette.bg_second, bold = styles.bold },
+    Folded = { fg = palette.purple_lite, bg = palette.bg_main },
     FoldColumn = { fg = palette.gray },
-    Folded = { fg = palette.fg2, bg = palette.bg_third },
-    MatchParen = { fg = palette.purple_lite, bold = styles.bold },
+    MatchParen = { fg = palette.fg3, bg = palette.orange_lite, bold = styles.bold },
     QuickFixLine = { bg = palette.bg1, bold = styles.bold },
     WildMenu = { link = "IncSearch" },
 
@@ -99,7 +99,7 @@ local function set_highlights()
     VertSplit = { fg = palette.bg1 },
     WinSeparator = { fg = palette.bg1 },
     NonText = { fg = palette.gray },
-    SpecialKey = { fg = palette.aqua_lite },
+    SpecialKey = { fg = palette.orange_dark },
 
     -- Cursor & Line Highlighting
     Cursor = { fg = palette.bg_main, bg = palette.fg1 },
@@ -116,7 +116,7 @@ local function set_highlights()
 
     -- Pop-up Menu (Pmenu)
     Pmenu = { fg = palette.fg1, bg = palette.bg_second },
-    PmenuSel = { fg = palette.fg, bg = palette.bg_1 },
+    PmenuSel = { fg = palette.fg, bg = palette.bg1 },
     PmenuKind = { fg = palette.aqua_lite, bg = palette.bg_second },
     PmenuKindSel = { fg = palette.aqua_lite, bg = palette.bg1 },
     PmenuSbar = { bg = palette.bg_second },
