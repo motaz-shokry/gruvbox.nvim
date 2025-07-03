@@ -892,10 +892,10 @@ local function set_highlights()
     AvanteReversedThirdTitle = { fg = palette.purple_lite },
 
     -- Saghen/blink.cmp
-    BlinkCmpDoc = { bg = palette.highlight_low },
-    BlinkCmpDocSeparator = { bg = palette.highlight_low },
-    BlinkCmpDocBorder = { fg = palette.highlight_high },
-    BlinkCmpGhostText = { fg = palette.fg4 },
+    BlinkCmpDoc = { bg = palette.bg_main },
+    BlinkCmpDocSeparator = { bg = palette.gray },
+    BlinkCmpDocBorder = { fg = palette.yellow_lite },
+    BlinkCmpGhostText = { fg = palette.gray },
 
     BlinkCmpLabel = { fg = palette.fg4 },
     BlinkCmpLabelDeprecated = { fg = palette.fg4, strikethrough = true },
