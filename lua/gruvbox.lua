@@ -229,14 +229,14 @@ local function set_highlights()
     TypeDef = { link = "Type" },
     Underlined = { fg = palette.purple_dark, underline = true },
 
-    -- LSP & Highlighting Groups
+    -- LSP
     LspCodeLens = { fg = palette.gray },
-    LspCodeLensSeparator = { fg = palette.bg2 },
+    LspCodeLensSeparator = { fg = palette.bg4 },
     LspInlayHint = { fg = palette.gray, bg = palette.bg1, blend = 25 },
-    LspReferenceRead = { bg = palette.bg2 },
-    LspReferenceText = { bg = palette.bg2 },
-    LspReferenceWrite = { bg = palette.bg2 },
-    LspSignatureActiveParameter = { bg = palette.bg3 },
+    LspReferenceRead = { bg = palette.bg_second },
+    LspReferenceText = { bg = palette.bg_second },
+    LspReferenceWrite = { bg = palette.bg_second },
+    LspSignatureActiveParameter = { bg = palette.bg_second },
 
     healthError = { fg = groups.error },
     healthSuccess = { fg = groups.info },
@@ -895,7 +895,7 @@ local function set_highlights()
     BlinkCmpDoc = { bg = palette.bg_main },
     BlinkCmpDocSeparator = {fg = palette.gray, bg = palette.none },
     BlinkCmpDocBorder = { fg = palette.blue_lite },
-    BlinkCmpGhostText = { fg = palette.gray },
+    BlinkCmpGhostText = { fg = palette.bg4 },
 
     BlinkCmpLabel = { fg = palette.fg4 },
     BlinkCmpLabelDeprecated = { fg = palette.fg4, strikethrough = true },
