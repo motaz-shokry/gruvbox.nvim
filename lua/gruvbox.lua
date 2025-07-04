@@ -237,6 +237,7 @@ local function set_highlights()
     LspReferenceText = { bg = palette.bg_second },
     LspReferenceWrite = { bg = palette.bg_second },
     LspSignatureActiveParameter = { bg = palette.bg_second },
+    LspReferenceTarget = {bg = palette.bg_second},
 
     healthError = { fg = groups.error },
     healthSuccess = { fg = groups.info },
