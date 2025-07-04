@@ -849,8 +849,8 @@ local function set_highlights()
     -- MeanderingProgrammer/render-markdown.nvim
     RenderMarkdownBullet = { fg = palette.purple_lite },
     RenderMarkdownChecked = { fg = palette.aqua_lite },
-    RenderMarkdownCode = { bg = palette.bg3 },
-    RenderMarkdownCodeInline = { fg = palette.fg, bg = palette.bg3 },
+    RenderMarkdownCode = { bg = palette.bg_second },
+    RenderMarkdownCodeInline = { fg = palette.fg1, bg = palette.bg_third },
     RenderMarkdownDash = { fg = palette.fg4 },
     RenderMarkdownH1Bg = { bg = groups.h1, blend = 20 },
     RenderMarkdownH2Bg = { bg = groups.h2, blend = 20 },
