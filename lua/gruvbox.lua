@@ -112,7 +112,7 @@ local function set_highlights()
     Search = { fg = palette.bg_main, bg = palette.yellow_lite },
     CurSearch = { fg = palette.bg_main, bg = palette.yellow_dark },
     IncSearch = { fg = palette.bg_main, bg = palette.yellow_dark },
-    Substitute = { fg = palette.bg_main, bg = palette.green_dark },
+    Substitute = { fg = palette.bg_main, bg = palette.orange_dark },
 
     -- Pop-up Menu (Pmenu)
     Pmenu = { fg = palette.fg1, bg = palette.bg_main },
@@ -902,7 +902,7 @@ local function set_highlights()
     BlinkCmpLabelDeprecated = { fg = palette.fg4, strikethrough = true },
     BlinkCmpLabelMatch = { fg = palette.fg, bold = styles.bold },
 
-    BlinkCmpDefault = { fg = palette.highlight_med },
+    BlinkCmpDefault = { fg = palette.fg1 },
     BlinkCmpKindText = { fg = palette.green_dark },
     BlinkCmpKindMethod = { fg = palette.aqua_lite },
     BlinkCmpKindFunction = { fg = palette.aqua_lite },
@@ -958,11 +958,11 @@ local function set_highlights()
     Folded = { fg = palette.fg, bg = "NONE" },
     NormalFloat = { bg = "NONE" },
     Normal = { fg = palette.fg, bg = "NONE" },
-    NormalNC = { fg = palette.fg, bg = config.options.dim_inactive_windows and palette._nc or "NONE" },
+    NormalNC = { fg = palette.fg2, bg = config.options.dim_inactive_windows and palette.bg_main or "NONE" },
     Pmenu = { fg = palette.fg, bg = "NONE" },
     PmenuKind = { fg = palette.aqua_lite, bg = "NONE" },
     SignColumn = { fg = palette.fg, bg = "NONE" },
-    StatusLine = { fg = palette.gray, bg = "NONE" },
+    StatusLine = { fg = palette.fg1, bg = palette.bg_second },
     StatusLineNC = { fg = palette.fg4, bg = "NONE" },
     TabLine = { bg = "NONE", fg = palette.gray },
     TabLineFill = { bg = "NONE" },
