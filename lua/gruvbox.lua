@@ -85,7 +85,7 @@ local function set_highlights()
 
     Directory = { fg = palette.blue_dark, bold = styles.bold },
     Title = { fg = palette.aqua_lite, bold = styles.bold },
-    FloatBorder = { fg = palette.blue_lite },
+    FloatBorder = make_border(palette.blue_lite),
     FloatTitle = { fg = palette.aqua_lite, bg = palette.bg_second, bold = styles.bold },
     Folded = { fg = palette.purple_lite, bg = palette.bg_main },
     FoldColumn = { fg = palette.gray },
@@ -237,7 +237,7 @@ local function set_highlights()
     LspReferenceText = { bg = palette.bg_second },
     LspReferenceWrite = { bg = palette.bg_second },
     LspSignatureActiveParameter = { bg = palette.bg_second },
-    LspReferenceTarget = {fg = palette.fg1, bg = palette.bg_second , border = palette.yellow_dark},
+    LspReferenceTarget = { fg = palette.fg1, bg = palette.bg_second },
 
     healthError = { fg = groups.error },
     healthSuccess = { fg = groups.info },
@@ -458,7 +458,7 @@ local function set_highlights()
 
     -- nvim-neotest/neotest
     NeotestAdapterName = { fg = palette.purple_lite },
-    NeotestBorder = { fg = palette.highlight_med },
+    NeotestBorder = make_border(palette.highlight_med),
     NeotestDir = { fg = palette.aqua_lite },
     NeotestExpandMarker = { fg = palette.highlight_med },
     NeotestFailed = { fg = palette.red_lite },
@@ -894,8 +894,8 @@ local function set_highlights()
 
     -- Saghen/blink.cmp
     BlinkCmpDoc = { bg = palette.bg_main },
-    BlinkCmpDocSeparator = {fg = palette.gray, bg = palette.none },
-    BlinkCmpDocBorder = { fg = palette.blue_lite },
+    BlinkCmpDocSeparator = { fg = palette.gray, bg = palette.none },
+    BlinkCmpDocBorder = make_border(palette.blue_lite),
     BlinkCmpGhostText = { fg = palette.bg4 },
 
     BlinkCmpLabel = { fg = palette.fg4 },
@@ -953,7 +953,7 @@ local function set_highlights()
     DiagnosticVirtualTextOk = { fg = groups.ok },
     DiagnosticVirtualTextWarn = { fg = groups.warn },
 
-    FloatBorder = { fg = palette.fg4, bg = "NONE" },
+    FloatBorder = make_border(palette.fg4),
     FloatTitle = { fg = palette.aqua_lite, bg = "NONE", bold = styles.bold },
     Folded = { fg = palette.fg, bg = "NONE" },
     NormalFloat = { bg = "NONE" },
@@ -990,7 +990,7 @@ local function set_highlights()
     MiniFilesTitleFocused = { fg = palette.purple_lite, bg = "NONE", bold = styles.bold },
 
     MiniPickPrompt = { bg = "NONE", bold = styles.bold },
-    MiniPickBorderText = { bg = "NONE" },
+    MiniPickBorderText = make_border(),
   }
 
   if config.options.enable.legacy_highlights then
