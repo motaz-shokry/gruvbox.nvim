@@ -160,8 +160,8 @@ local function set_highlights()
     TabLineSel = { fg = palette.fg, bg = palette.bg2, bold = styles.bold },
 
     -- Window Bars
-    WinBar = { fg = palette.fg2, bg = palette.bg_main },
-    WinBarNC = { fg = palette.gray, bg = palette.bg_main },
+    WinBar = { fg = palette.fg2, bg = palette.bg_second },
+    WinBarNC = { fg = palette.gray, bg = palette.bg_second },
 
     DiagnosticError = { fg = groups.error },
     DiagnosticHint = { fg = groups.hint },
@@ -236,7 +236,7 @@ local function set_highlights()
     LspReferenceRead = { bg = palette.bg_second },
     LspReferenceText = { bg = palette.bg_second },
     LspReferenceWrite = { bg = palette.bg_second },
-    LspSignatureActiveParameter = { bg = palette.bg_second },
+    LspSignatureActiveParameter = {fg = palette.bg_main, bg = palette.green_lite },
     LspReferenceTarget = { fg = palette.fg1, bg = palette.bg_second },
 
     healthError = { fg = groups.error },
