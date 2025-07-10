@@ -160,7 +160,7 @@ local function set_highlights()
     TabLineSel = { fg = palette.fg, bg = palette.bg2, bold = styles.bold },
 
     -- Window Bars
-    WinBar = { fg = palette.fg2, bg = palette.bg_second },
+    WinBar = { fg = palette.fg2, bg = palette.bg_main },
     WinBarNC = { fg = palette.gray, bg = palette.bg_second },
 
     DiagnosticError = { fg = groups.error },
