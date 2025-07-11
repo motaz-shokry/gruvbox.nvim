@@ -644,10 +644,10 @@ local function set_highlights()
     DapUIWatchesError = { link = "DapUIWatchesEmpty" },
     DapUIWatchesValue = { link = "DapUIThread" },
 
-    -- glepnir/dashboard-nvim
-    DashboardCenter = { fg = palette.yellow_lite },
+    -- nvimdev/dashboard-nvim
+    DashboardHeader = { fg = palette.yellow_dark },
+    DashboardCenter = { fg = palette.aqua_lite },
     DashboardFooter = { fg = palette.purple_lite },
-    DashboardHeader = { fg = palette.green_dark },
     DashboardShortcut = { fg = palette.red_lite },
 
     -- SmiteshP/nvim-navic
