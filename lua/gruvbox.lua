@@ -649,7 +649,6 @@ local function set_highlights()
     DashboardCenter = { fg = palette.aqua_lite },
     DashboardFooter = { fg = palette.purple_lite },
     DashboardShortcut = { fg = palette.red_lite },
-    DashboardDesc = { fg = palette.purple_lite },
 
     -- SmiteshP/nvim-navic
     NavicIconsArray = { fg = palette.yellow_lite },
