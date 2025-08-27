@@ -260,17 +260,17 @@ local function set_highlights()
 
     -- Markdown
     markdownDelimiter = { fg = palette.gray },
-    markdownH1 = { fg = palette.orange_lite, bold = styles.bold },
+    markdownH1 = { fg = palette.red_dark, bold = styles.bold },
     markdownH1Delimiter = { link = "markdownH1" },
-    markdownH2 = { fg = palette.yellow_lite, bold = styles.bold },
+    markdownH2 = { fg = palette.yellow_dark, bold = styles.bold },
     markdownH2Delimiter = { link = "markdownH2" },
-    markdownH3 = { fg = palette.green_lite, bold = styles.bold },
+    markdownH3 = { fg = palette.green_dark, bold = styles.bold },
     markdownH3Delimiter = { link = "markdownH3" },
-    markdownH4 = { fg = palette.blue_lite, bold = styles.bold },
+    markdownH4 = { fg = palette.aqua_dark, bold = styles.bold },
     markdownH4Delimiter = { link = "markdownH4" },
-    markdownH5 = { fg = palette.purple_lite, bold = styles.bold },
+    markdownH5 = { fg = palette.blue_dark, bold = styles.bold },
     markdownH5Delimiter = { link = "markdownH5" },
-    markdownH6 = { fg = palette.aqua_lite, bold = styles.bold },
+    markdownH6 = { fg = palette.aqua_dark, bold = styles.bold },
     markdownH6Delimiter = { link = "markdownH6" },
     markdownLinkText = { link = "markdownUrl" },
     markdownUrl = { fg = palette.blue_lite, underline = true },
@@ -389,6 +389,9 @@ local function set_highlights()
     ["@lsp.typemod.variable.injected"] = { link = "@variable" },
 
     --- Plugins
+    -- OXY2DEV/markview.nvim
+    
+
     -- romgrk/barbar.nvim
     BufferCurrent = { fg = palette.fg, bg = palette.bg_main },
     BufferCurrentIndex = { fg = palette.blue_lite, bg = palette.bg_main },
