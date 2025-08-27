@@ -35,8 +35,8 @@ local variants = {
 	},
 	medium = {
 		bg_main = "#282828",
-		bg_second = "#1b1b1b",
-		bg_third = "#32302F",
+		bg_second = "#32302F",
+		bg_third = "#1b1b1b",
 		bg1 = "#3C3836",
 		bg2 = "#504945",
 		bg3 = "#665C54",
