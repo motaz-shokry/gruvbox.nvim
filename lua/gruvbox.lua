@@ -390,12 +390,12 @@ local function set_highlights()
 
     --- Plugins
     -- OXY2DEV/markview.nvim
-    MarkviewPalette1 = {linke = "markdownH1" },
-    MarkviewPalette2 = {linke = "markdownH2" },
-    MarkviewPalette3 = {linke = "markdownH3" },
-    MarkviewPalette4 = {linke = "markdownH4" },
-    MarkviewPalette5 = {linke = "markdownH5" },
-    MarkviewPalette6 = {linke = "markdownH6" },
+    MarkviewPalette1Fg = {linke = "markdownH1" },
+    MarkviewPalette2Fg = {linke = "markdownH2" },
+    MarkviewPalette3Fg = {linke = "markdownH3" },
+    MarkviewPalette4Fg = {linke = "markdownH4" },
+    MarkviewPalette5Fg = {linke = "markdownH5" },
+    MarkviewPalette6Fg = {linke = "markdownH6" },
 
     -- romgrk/barbar.nvim
     BufferCurrent = { fg = palette.fg, bg = palette.bg_main },
