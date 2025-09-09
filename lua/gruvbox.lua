@@ -85,7 +85,7 @@ local function set_highlights()
 
     Directory = { fg = palette.blue_dark, bold = styles.bold },
     Title = { fg = palette.aqua_lite, bold = styles.bold },
-    FloatBorder = make_border(palette.red_lite),
+    FloatBorder = make_border(palette.purple_lite),
     FloatTitle = { fg = palette.aqua_lite, bg = palette.bg_second, bold = styles.bold },
     Folded = { fg = palette.purple_lite, bg = palette.bg_main },
     FoldColumn = { fg = palette.gray },
