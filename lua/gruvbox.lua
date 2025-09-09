@@ -80,12 +80,12 @@ local function set_highlights()
   local default_highlights = {
     -- Editor UI
     Normal = { fg = palette.fg, bg = palette.bg_main },
-    NormalFloat = { fg = palette.fg, bg = palette.bg_second },
+    NormalFloat = { fg = palette.fg, bg = palette.bg_main },
     NormalNC = { fg = palette.fg2, bg = palette.bg_main },
 
     Directory = { fg = palette.blue_dark, bold = styles.bold },
     Title = { fg = palette.aqua_lite, bold = styles.bold },
-    FloatBorder = make_border(palette.aqua_lite),
+    FloatBorder = make_border(palette.red_lite),
     FloatTitle = { fg = palette.aqua_lite, bg = palette.bg_second, bold = styles.bold },
     Folded = { fg = palette.purple_lite, bg = palette.bg_main },
     FoldColumn = { fg = palette.gray },
