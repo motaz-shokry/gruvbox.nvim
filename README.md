@@ -47,7 +47,7 @@ Gruvbox has four variants: hard, medium, soft and light. By default, `vim.o.back
 
 ```lua
 require("gruvbox").setup({
-  variant = "hard",        -- hard, medium, soft, light
+  variant = "hard",        -- auto, hard, medium, soft, light
   dark_variant = "medium", -- hard, medium, soft
   dim_inactive_windows = false,
   extend_background_behind_borders = false,
