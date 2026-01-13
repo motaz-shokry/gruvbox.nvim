@@ -695,7 +695,6 @@ local function set_highlights()
     -- folke/trouble.nvim
     TroubleText = { fg = palette.gray },
     TroubleCount = { fg = palette.purple_lite, bg = palette.bg_second },
-    TroubleNormal = { fg = palette.fg, bg = groups.panel },
 
     -- echasnovski/mini.nvim
     MiniAnimateCursor = { reverse = true, nocombine = true },
