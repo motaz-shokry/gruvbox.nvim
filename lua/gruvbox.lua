@@ -747,11 +747,11 @@ local function set_highlights()
     MiniHipatternsTodo = { fg = palette.bg_main, bg = groups.hint, bold = styles.bold },
 
     MiniIconsAzure = { fg = palette.aqua_lite },
-    MiniIconsBlue = { fg = palette.green_dark },
+    MiniIconsBlue = { fg = palette.blue_lite },
     MiniIconsCyan = { fg = palette.aqua_lite },
     MiniIconsGreen = { fg = palette.green_lite },
     MiniIconsGrey = { fg = palette.gray },
-    MiniIconsOrange = { fg = palette.purple_lite },
+    MiniIconsOrange = { fg = palette.orange_lite },
     MiniIconsPurple = { fg = palette.purple_lite },
     MiniIconsRed = { fg = palette.red_lite },
     MiniIconsYellow = { fg = palette.yellow_lite },
