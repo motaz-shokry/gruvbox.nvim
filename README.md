@@ -1,4 +1,4 @@
-# Lua version of [gruvbox](https://github.com/morhetz/gruvbox) theme, but the hard variant background is "#1b1b1b" not "#1d2021" 🙃.
+# Lua version of [gruvbox](https://github.com/morhetz/gruvbox) theme, but the hard variant background is "#1b1b1b" not "#1d2021" 🙃. Also Override all devicons colors with gruvbox colors.
 
 ## Why!
 I’ve always had a soft spot for the [gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) theme, so I gave that gruvbox.nvim a try. Sadly, the visual design didn’t land well for me — especially the background color: a harsh #1d2021 instead of the smoother #1b1b1b I’m used to.
@@ -38,6 +38,9 @@ return {
 
 ![Gruvbox Light Variant](./assets/light.png)
 
+
+**All Devicons are supported**
+![Gruvbox Light Variant](./assets/devicons.png)
 ## Options
 
 > [!IMPORTANT]
