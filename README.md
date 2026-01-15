@@ -141,6 +141,8 @@ vim.cmd("colorscheme gruvbox")
 
 ## Contributing
 
-We welcome and appreciate contributions of any kind. Create an issue or start a discussion for any proposed changes. Pull requests are encouraged for supporting additional plugins or [treesitter improvements](https://github.com/nvim-treesitter/nvim-treesitter/blob/master/CONTRIBUTING.md#highlights).
+I welcome and appreciate contributions of any kind. Create an issue or start a discussion for any proposed changes. Pull requests are encouraged for supporting additional plugins or [treesitter improvements](https://github.com/nvim-treesitter/nvim-treesitter/blob/master/CONTRIBUTING.md#highlights).
+
+make sure to see [CONTRIBUTING](https://gitlab.com/motaz-shokry/gruvbox.nvim/CONTRIBUTING.md)
 
 Feel free to update the [README](https://gitlab.com/motaz-shokry/gruvbox.nvim/README) with any improvements.
