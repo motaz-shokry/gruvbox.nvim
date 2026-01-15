@@ -27,6 +27,8 @@ config.options = {
     legacy_highlights = true,
     migrations = true,
     terminal = true,
+    devicons = true,
+    lualine = true,
   },
 
   styles = {

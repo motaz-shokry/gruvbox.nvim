@@ -62,4 +62,16 @@ function utilities.blend(fg, bg, alpha)
   return result
 end
 
+---@param fg string border color
+---@param config table global configs
+---@param palette table colors
+---@param styles table
+function utilities.make_border(fg, config, palette, styles)
+  return {
+    fg = fg,
+    bg = (config.options.extend_background_behind_borders and not styles.transparency) and palette.bg_main
+        or "NONE",
+  }
+end
+
 return utilities
