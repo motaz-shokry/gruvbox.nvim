@@ -44,25 +44,3 @@ If you've customized plugin-specific highlights, you may need to:
 1. **Review the new structure**: Check the corresponding integration file in `/lua/gruvbox/integrations/`
 2. **Update your configuration**: Use the new `config.options.highlight_groups` to override integration defaults
 3. **For lualine users**: The theme is now applied automatically. Remove any manual `require('lualine').setup()` calls that set the theme
-
-#### Example: Enabling/Disabling Integrations
-```lua
-require('gruvbox').setup({
-enable = {
-  devicons = true,     -- nvim-web-devicons color mappings
-  lualine = true,      -- Automatic lualine theme
-  terminal = true,     -- Terminal color setup
-}
-})
-```
-
-#### Example: Overriding Integration Defaults
-```lua
-require('gruvbox').setup({
-  highlight_groups = {
-    -- Override specific highlight groups from integrations
-    GitSignsAdd = { fg = '#00ff00', bold = true },
-    DevIconPython = { fg = '#306998' },
-  }
-})
-```
