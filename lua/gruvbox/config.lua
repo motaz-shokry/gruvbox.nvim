@@ -24,7 +24,6 @@ config.options = {
   extend_background_behind_borders = false,
 
   enable = {
-    legacy_highlights = true,
     migrations = true,
     terminal = true,
     devicons = true,
