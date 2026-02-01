@@ -7,7 +7,7 @@ function M.setup(palette, config, utilities, groups)
     BlinkCmpDoc = { bg = palette.bg_main },
     BlinkCmpDocSeparator = { fg = palette.gray, bg = palette.none },
     BlinkCmpDocBorder = utilities.make_border(palette.blue_lite, config, palette, styles),
-    BlinkCmpGhostText = { fg = palette.bg4 },
+    BlinkCmpGhostText = { fg = palette.gray },
     BlinkCmpLabel = { fg = palette.fg4 },
     BlinkCmpLabelDeprecated = { fg = palette.fg4, strikethrough = true },
     BlinkCmpLabelMatch = { fg = palette.fg, bold = styles.bold },

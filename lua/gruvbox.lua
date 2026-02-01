@@ -200,6 +200,7 @@ local function set_highlights()
     healthError = { fg = groups.error },
     healthSuccess = { fg = groups.info },
     healthWarning = { fg = groups.warn },
+    PreInsert = { fg = palette.gray},
 
     htmlArg = { fg = palette.purple_lite },
     htmlBold = { bold = styles.bold },
