@@ -30,6 +30,7 @@ local function load_integrations(palette, config, utilities, groups)
     "nvim-notify",
     "nvim-tree",
     "nvim-treesitter-context",
+    "oil-git",
     "rainbow-delimiters",
     "render-markdown",
     "telescope",
