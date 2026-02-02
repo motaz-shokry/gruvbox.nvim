@@ -23,7 +23,7 @@ function M.setup(palette, config, utilities, groups)
     LspCodeLens = { fg = palette.gray },
     LspCodeLensSeparator = { fg = palette.bg4 },
     LspInlayHint = { fg = palette.gray, bg = palette.bg1, blend = 25 },
-    LspReferenceRead = { bg = palette.bg_second },
+    LspReferenceRead = { bg = palette.bg2 },
     LspReferenceText = { bg = palette.bg_second },
     LspReferenceWrite = { bg = palette.bg_second },
     LspSignatureActiveParameter = { fg = palette.bg_main, bg = palette.green_lite },
