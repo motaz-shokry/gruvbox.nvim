@@ -10,7 +10,7 @@ function M.setup(palette, config, utilities, groups)
   highlights["OilGitDeleted"] = { fg = groups.git_delete }
   highlights["OilGitCopied"] = { fg = groups.git_rename }
   highlights["OilGitConflict"] = { fg = groups.git_merge }
-  highlights["OilGitUntracked"] = { fg = groups.git_untracked }
+  highlights["OilGitUntracked"] = { fg = palette.gray }
   highlights["OilGitIgnored"] = { fg = groups.git_ignore }
 
   return highlights
